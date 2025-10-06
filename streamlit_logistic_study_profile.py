@@ -430,19 +430,7 @@ Ejemplo2,0,0,1,0,1,1,0
     )
     
     st.markdown("---")
-    
-    # Próximos pasos
-    st.markdown("### 🚀 Próximos Pasos")
-    st.info("""
-    **¿Qué más puedo hacer por vos?**
-    
-    - 📓 **Notebook Jupyter**: Generar un notebook paso a paso con el análisis completo
-    - 🖥️ **Versión CLI**: Crear una versión minimal sin Streamlit para ejecutar en terminal
-    - 📊 **Presentación PowerPoint**: Preparar slides explicando el flujo completo
-    - 📚 **Documentación**: Crear un README detallado con instrucciones
-    
-    ¡Decime qué necesitás!
     """)
 
 st.markdown('---')
-st.caption('🧪 Código creado para demo educativa | Asegurate de revisar privacidad antes de recolectar datos reales')
+st.caption('🧪 Código creado para trabajo practico de inteligencia artificial')
