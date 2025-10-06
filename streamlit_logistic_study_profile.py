@@ -430,7 +430,6 @@ Ejemplo2,0,0,1,0,1,1,0
     )
     
     st.markdown("---")
-    """)
 
 st.markdown('---')
 st.caption('🧪 Código creado para trabajo practico de inteligencia artificial')
