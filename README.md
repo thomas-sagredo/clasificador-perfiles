@@ -179,23 +179,6 @@ preguntas = {
 
 ---
 
-## 🔧 Troubleshooting
-
-### Error: "ModuleNotFoundError"
-```bash
-pip install --upgrade -r requirements.txt
-```
-
-### Error: "Port 8501 is already in use"
-```bash
-streamlit run streamlit_logistic_study_profile.py --server.port 8502
-```
-
-### La app no se abre automáticamente
-Abrir manualmente: `http://localhost:8501`
-
----
-
 ## 🖥️ Versión CLI (Línea de Comandos)
 
 Si preferís una versión sin interfaz gráfica:
@@ -251,6 +234,8 @@ jupyter notebook analisis_perfiles_estudio.ipynb
 python generar_graficos_presentacion.py
 ```
 
+
+
 Esto creará 9 gráficos profesionales en la carpeta `graficos_presentacion/`:
 - Distribución de perfiles
 - Importancia de variables
@@ -261,49 +246,3 @@ Esto creará 9 gráficos profesionales en la carpeta `graficos_presentacion/`:
 - Distribución por variable
 - Métricas del modelo
 - Pipeline del proyecto
-
-### Guía completa de presentación:
-
-Lee `GUIA_PRESENTACION.md` para:
-- 📊 Estructura de 20-22 slides
-- 🎨 Tips de diseño y colores
-- 🎬 Guión para demo en vivo
-- 📝 Script completo de presentación
-- ❓ Preguntas frecuentes y respuestas
-
----
-
-## 🚀 Próximos Pasos
-
-¿Querés expandir el proyecto?
-
-- ✅ **Notebook Jupyter** - Ya incluido
-- ✅ **Versión CLI** - Ya incluido
-- ✅ **Guía de Presentación** - Ya incluido
-- 🔄 **Tests unitarios**: Agregar tests automatizados
-- 🌐 **API REST**: Crear endpoint con FastAPI
-- 📱 **App móvil**: Versión para Android/iOS
-
----
-
-## ⚠️ Consideraciones
-
-- **Privacidad**: Si recolectás datos reales, asegurate de tener consentimiento
-- **Datos simulados**: El dataset por defecto es sintético, no representa datos reales
-- **Propósito educativo**: Este proyecto es para aprendizaje, no para uso profesional sin validación
-
----
-
-## 📝 Licencia
-
-Proyecto educativo - Libre uso para fines académicos
-
----
-
-## 🤝 Contribuciones
-
-¿Encontraste un bug o tenés una idea? ¡Abrí un issue o pull request!
-
----
-
-**Creado con ❤️ para aprender Machine Learning de forma interactiva**
